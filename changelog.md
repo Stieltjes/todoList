@@ -29,3 +29,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Changed Help Wanted link to display content
 - Updated changelog.md
+
+## [1.0.5] - 2017-10-19 (Benjamin Wang)
+
+- Fixed bootstrap in template_secondary
+- Implemented Maintainence
+- Updated changelog.md
