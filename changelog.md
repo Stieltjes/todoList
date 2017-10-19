@@ -55,3 +55,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Implemented role-specific maintenance
 - Updated changelog.md
+
+## [1.0.9] - 2017-10-19 (Judy Zhu)
+
+- Edited Task Item maintenance final part
+- Updated changelog.md
