@@ -50,3 +50,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Added form for work page
 - Updated changelog.md
+
+## [1.0.8] - 2017-10-19 (Benjamin Wang)
+
+- Implemented role-specific maintenance
+- Updated changelog.md
