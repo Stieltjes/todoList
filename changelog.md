@@ -35,3 +35,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Fixed bootstrap in template_secondary
 - Implemented Maintainence
 - Updated changelog.md
+
+## [1.0.6] - 2017-10-19 (Judy Zhu)
+
+- Implemented Pagination
+- Updated changelog.md
