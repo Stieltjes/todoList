@@ -40,3 +40,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Implemented Pagination
 - Updated changelog.md
+
+## [1.0.7] - 2017-10-19 (Benjamin Wang)
+
+- Added roles
+- Updated changelog.md
