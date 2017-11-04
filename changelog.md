@@ -74,3 +74,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Added .travis.yml
 - Added composer
 - Updated changelog.md
+
+## [1.0.13] - 2017-11-04 (Judy Zhu)
+
+- Updated .gitignore 
