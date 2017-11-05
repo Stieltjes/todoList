@@ -14,8 +14,8 @@
     verbose="false"
     bootstrap="tests/Bootstrap.php">
     <testsuites>
-        <testsuite name="CITools Test Suite">
-            <directory>./tests/</directory>
+    <testsuite name="Task Test Suite">
+        <directory>./tests/</directory>
         </testsuite>
     </testsuites>
     <filter>
@@ -23,4 +23,8 @@
             <directory>./system/</directory>
         </whitelist>
     </filter>
+	<logging>
+	<log type="coverage-html" target="./tests/report" charset="UTF-8" yui="true"
+		  highlight="true" lowUpperBound="50" highLowerBound="80" />
+	</logging>
 </phpunit>
