@@ -65,3 +65,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Polished item maintenance
 - Updated changelog.md
+
+## [1.0.12] - 2017-11-04 (Judy Zhu)
+
+- Added model: Entity.php, Task.php 
+- Added unit test: tests folder (TaskTest.php, TaskListTest.php, Bootstrap.php)
+- Added phpunit.xml.dist
+- Added .travis.yml
+- Added composer
+- Updated changelog.md
+
+## [1.0.13] - 2017-11-04 (Judy Zhu)
+
+- Updated .gitignore 
+
+## [1.0.14] - 2017-11-04 (Judy Zhu)
+
+- Updated unit tests files for PHPUNIT 6.4.3 
