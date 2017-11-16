@@ -82,3 +82,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [1.0.14] - 2017-11-04 (Judy Zhu)
 
 - Updated unit tests files for PHPUNIT 6.4.3 
+
+## [1.0.15] - 2017-11-04 (Benjamin Wang)
+
+- Added data/tasks.xml
+
+## [1.0.16] - 2017-11-04 (Judy Zhu)
+
+- Added application/core/XML_Model.php
+- Modified XML_Model.php load()
