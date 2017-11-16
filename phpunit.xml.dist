@@ -14,8 +14,8 @@
     verbose="false"
     bootstrap="tests/Bootstrap.php">
     <testsuites>
-        <testsuite name="Task Test Suite">
-            <directory>./tests/</directory>
+    <testsuite name="Task Test Suite">
+        <directory>./tests/</directory>
         </testsuite>
     </testsuites>
     <filter>

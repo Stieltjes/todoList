@@ -6,7 +6,6 @@ class Task extends Entity {
 	private $Size;
 	private $Group;
 	
-		
 	function setTask($value)
 	{
 		if(strlen($value) > 64){
