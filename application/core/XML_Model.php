@@ -53,7 +53,8 @@ class XML_Model extends Memory_Model
 			$record = new stdClass();
 			foreach($item->children() as $category)
 			{
-				$record->{$category->getName()} = (string)$category;				
+				$this->_fields[] = $category->getName();
+				$record->{$category->getName()} = (string) $category;				
 			}
 				$key = $record->{$this->_keyfield};
 				$this->_data[$key] = $record;
@@ -69,7 +70,18 @@ class XML_Model extends Memory_Model
 	 */
 	protected function store()
 	{
-	
+		$this->reindex();
+		
+		$tasklist = new SimpleXMLElement("<xml/>");
+		
+		foreach ($this->_data as $item) {
+			$track = $tasklist->addChild('item');
+			foreach ($item as $catkey => $catvalue){
+				$track->addChild($catkey,(string)$catvalue);
+			}
+		}
+		
+		$tasklist->asXML("../data/tasks.xml");
 	}
 
 }
